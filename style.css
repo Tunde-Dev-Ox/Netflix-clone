@@ -1,0 +1,121 @@
+.netflix-sans-font-loaded {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.default-ltr {
+  position: relative;
+  z-index: 1;
+}
+
+.header-main-wrapper {
+  position: relative;
+  z-index: 0;
+}
+
+.header-inner-wrapper {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+@media screen and (min-width: 960px) {
+  .header-inner-wrapper {
+    height: 5.375rem;
+    max-width: calc(100% - 4rem);
+  }
+}
+
+.brand-wrapper {
+  margin-left: 0;
+  margin-right: auto;
+}
+@media screen and (min-width: 960px) {
+  .brand-wrapper {
+    margin: 0 0.75rem;
+    margin-right: auto;
+  }
+}
+
+.brand-inner-wrapper {
+  margin-left: 0;
+  margin-right: auto;
+}
+@media screen and (min-width: 960px) {
+  .brand-inner-wrapper {
+    margin: 0 0.75rem;
+  }
+}
+.brand-inner-wrapper .netflix-svg {
+  overflow: hidden;
+  width: 9.25rem;
+  height: 2.5rem;
+  color: #e50914;
+  fill: currentColor;
+  display: block;
+}
+
+.brand-name {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media screen and (min-width: 960px) {
+  .default-ltr-cache-goyzqq {
+    margin: 0 0.75rem;
+  }
+}
+
+.signIn-wrapper {
+  margin-right: 0;
+}
+@media screen and (min-width: 960px) {
+  .signIn-wrapper {
+    margin: 0 0.75rem;
+  }
+}
+
+.sign-in {
+  text-decoration: none;
+  appearance: none;
+  margin: 0;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  fill: currentColor;
+  position: relative;
+  color: rgb(255, 255, 255);
+  background-color: rgb(229, 9, 20);
+  padding: 0.25rem 1rem;
+  min-height: 2rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  width: auto;
+  vertical-align: text-top;
+  transition-duration: 250ms;
+  transition-property: background-color, border-color;
+  transition-timing-function: cubic-bezier(0.9, 0, 0.51);
+}
+.sign-in:hover {
+  background: rgb(184, 15, 23);
+}
+
+*, ::after, ::before {
+  -webkit-font-smoothing: antialised;
+  letter-spacing: 0 !important;
+  direction: ltr;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+@import 'variables';
+
+@mixin headerHeight {
+    @media screen and (min-width: $mediumScreen) and (max-width: $largeScreen) {
+        @content;
+    }
+}
+
+@mixin header {
+    @media screen and (min-width: $mediumScreen) {
+        @content;
+    }
+}
